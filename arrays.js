@@ -9,8 +9,6 @@ function destructivelyAddElementToBeginningOfArray(array, element) {
   return array
 }
 function addElementToEndOfArray(array, element) {
-  
-}
-function destructivelyAddElementToEndOfArray(array, element) {
-  
+  const newarray2 = [...array, element]
+  return newarray2
 }
