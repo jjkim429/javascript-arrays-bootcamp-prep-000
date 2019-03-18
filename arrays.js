@@ -30,4 +30,5 @@ function destructivelyRemoveElementFromEndOfArray(array) {
 }
 function removeElementFromEndOfArray(array) {
   const newarray4 = array.slice(0, array.length - 1)
+  return newarray4
 }
