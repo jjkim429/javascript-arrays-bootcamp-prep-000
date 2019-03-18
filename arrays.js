@@ -32,4 +32,6 @@ function removeElementFromEndOfArray(array) {
   const newarray4 = array.slice(0, array.length - 1)
   return newarray4
 }
-function 
+function accessElementInArray(array, index) {
+  
+}
