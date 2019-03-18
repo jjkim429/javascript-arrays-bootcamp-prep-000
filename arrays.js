@@ -21,7 +21,7 @@ function destructivelyRemoveElementFromBeginningOfArray(array) {
   return array
 }
 function removeElementFromBeginningOfArray(array) {
-  const newarray3 = array.slice(1)https://learn.co/tracks/bootcamp-prep/javascript-fundamentals/data-structures/javascript-arrays?batch_id=460&track_id=19381#
+  const newarray3 = array.slice(1)
   return newarray3
 }
 function destructivelyRemoveElementFromEndOfArray(array) {
