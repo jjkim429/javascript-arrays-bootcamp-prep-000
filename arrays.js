@@ -21,5 +21,6 @@ function destructivelyRemoveElementFromBeginningOfArray(array) {
   return array
 }
 function removeElementFromBeginningOfArray(array) {
-  
+  const newarray3 = array.slice(1)
+  return newarray3
 }
