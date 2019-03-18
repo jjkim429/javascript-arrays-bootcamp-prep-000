@@ -24,3 +24,7 @@ function removeElementFromBeginningOfArray(array) {
   const newarray3 = array.slice(1)
   return newarray3
 }
+function destructivelyRemoveElementFromEndOfArray(array) {
+  array.pop()
+  return array
+}
